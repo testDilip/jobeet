@@ -8,8 +8,12 @@ category:
   param:    { module: category, action: show }
 
 job:
-  class:   sfDoctrineRouteCollection
-  options: { model: jobeetJob }
+  class:        sfDoctrineRouteCollection
+  options:      
+    model: jobeetJob 
+    column: token
+    object_actions: { publish: put }
+  requirements: { token: \w+ }
 
 job_show_user:
   url:     /job/:company_slug/:location_slug/:id/:position_slug
