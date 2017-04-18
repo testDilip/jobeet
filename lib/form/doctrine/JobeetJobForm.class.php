@@ -15,6 +15,8 @@ class JobeetJobForm extends BaseJobeetJobForm
    */
   public function configure()
   {
+      $this->widgetSchema->setNameFormat('job[%s]');
+      
       // removing fields from a form is as simple as insetting them by using unset method
       // Unsetting a field means that both the field widget and validator are removed.
       //unset($this['created_at'], $this['updated_at'], $this['expires_at'], $this['is_activated']);
