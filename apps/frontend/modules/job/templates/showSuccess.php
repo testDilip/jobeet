@@ -27,8 +27,15 @@
         <small>posted on <?php echo $job->getCreatedAt('m/d/Y')?></small>
     </div>
     <div style="padding: 20px 0px;">
-    	<a href="<?php echo url_for('job/edit?id='. $job->getId())?>">Edit</a> | 
-    	<a href="<?php echo url_for('job/index'); ?>">Back to List</a>
+    	<?php if ($sf_request->getParameter('token') == $job->getToken())
+    	{
+    		include_partial('job/admin', array('job' => $job));
+    	} else {
+    	    ?>
+    	    <a href="<?php echo url_for('job_edit', $job)?>">Edit</a> | 
+    	    <a href="<?php echo url_for('job/index'); ?>">Back to List</a>
+    	    <?php 
+    	}?>
     </div>
 </div>
 <?php
