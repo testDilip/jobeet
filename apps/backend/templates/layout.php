@@ -5,10 +5,36 @@
     <?php include_metas() ?>
     <?php include_title() ?>
     <link rel="shortcut icon" href="/favicon.ico" />
+    <?php use_stylesheet('admin.css') ?>
     <?php include_stylesheets() ?>
     <?php include_javascripts() ?>
   </head>
   <body>
-    <?php echo $sf_content ?>
+  	<div id="container">
+  		<div id="header">
+  			<h1>
+  				<a href="<?php echo url_for('homepage'); ?>">
+  					<img src="/images/logo.jpg" alt="Jobeet Job Board" />
+  				</a>
+  			</h1>
+  		</div>
+  	
+      	<div id="menu">
+      		<ul>
+      			<li><?php echo link_to('Jobs', 'jobeet_job'); ?></li>
+      			<li><?php echo link_to('Category', 'jobeet_category'); ?></li>
+      		</ul>
+      	</div>
+  	
+      	<div id="content">
+      		<?php echo $sf_content ?>
+      	</div>
+  	
+		<div id="footer">
+        	<img src="/images/jobeet-mini.png" />
+    		powered by <a href="/">
+        	<img src="/images/symfony.gif" alt="symfony framework" /></a>
+		</div>
+    </div>
   </body>
 </html>
