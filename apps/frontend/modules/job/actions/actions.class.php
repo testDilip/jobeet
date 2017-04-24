@@ -23,9 +23,19 @@ class jobActions extends sfActions
 
   public function executeShow(sfWebRequest $request)
   {
-    //$this->job = Doctrine_Core::getTable('JobeetJob')->find(array($request->getParameter('id')));
-    $this->job = $this->getRoute()->getObject();
+    //$this->job = $this->getRoute()->getObject();
     //$this->forward404Unless($this->job);
+    
+      $this->job = $this->getRoute()->getObject();
+      
+      // fetch jobs already stored in the job history
+      $jobs = $this->getUser()->getAttribute('job_history', array());
+      
+      // add the current job at the beginning of the array
+      array_unshift($jobs, $this->job->getId());
+      
+      // store the new job history back into the session
+      $this->getUser()->setAttribute('job_history', $jobs);
   }
 
   public function executeNew(sfWebRequest $request)
