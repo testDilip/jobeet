@@ -15,14 +15,35 @@ class affiliateActions extends autoAffiliateActions
 {
     public function executeListActivate()
     {
-        $this->getRoute()->getObject()->activate();
+        $affiliate = $this->getRoute()->getObject();
+        $affiliate->activate();
+        
+        // send an email to affiliate
+        $message = Swift_Message::newInstance()
+        ->setFrom('dilip@aum203.aum.com')
+        ->setTo('gunvant@aum203.aum.com')
+        ->setSubject('This is testing local mail send')
+        ->setBody('Hi, i am just testing that we can send mail in local with symfony.');
+        
+        $this->getMailer()->send($message);
         
         $this->redirect('jobeet_affiliate');
     }
     
     public function executeListDeactivate()
     {
-        $this->getRoute()->getObject()->deactivate();
+        $affiliate = $this->getRoute()->getObject();
+        $affiliate->deactivate();
+        
+        // send an email to affiliate
+        $message = Swift_Message::newInstance()
+        ->setFrom('dilip@aum203.aum.com')
+        ->setTo('gunvant@aum203.aum.com')
+        ->setSubject('This is testing local mail send')
+        ->setBody('Hi, i am just testing that we can send mail in local with symfony.');
+        
+        $this->getMailer()->send($message);
+        
         
         $this->redirect('jobeet_affiliate');
     }

@@ -35,7 +35,6 @@ class JobeetAffiliate extends BaseJobeetAffiliate
             ->leftJoin('j.JobeetCategory c')
             ->leftJoin('c.JoobeetAffiliate a')
             ->where('a.id = ?', $this->getId());
-        
         $q = Doctrine_Core::getTable('JobeetJob')->addActiveJobsQuery($q);
         
         return $q->execute();
