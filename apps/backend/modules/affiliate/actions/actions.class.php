@@ -21,7 +21,7 @@ class affiliateActions extends autoAffiliateActions
         // send an email to affiliate
         $message = Swift_Message::newInstance()
         ->setFrom('dilip@aum203.aum.com')
-        ->setTo('gunvant@aum203.aum.com')
+        ->setTo('dilip@aum203.aum.com')
         ->setSubject('This is testing local mail send')
         ->setBody('Hi, i am just testing that we can send mail in local with symfony.');
         
@@ -38,7 +38,7 @@ class affiliateActions extends autoAffiliateActions
         // send an email to affiliate
         $message = Swift_Message::newInstance()
         ->setFrom('dilip@aum203.aum.com')
-        ->setTo('gunvant@aum203.aum.com')
+        ->setTo('dilip@aum203.aum.com')
         ->setSubject('This is testing local mail send')
         ->setBody('Hi, i am just testing that we can send mail in local with symfony.');
         
