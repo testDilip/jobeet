@@ -7,5 +7,6 @@ class languageComponents extends sfComponents
                 $this->getUser(),
                 array('languages' => array('en', 'fr'))
                 );
+        $this->form->disableLocalCSRFProtection();
     }
 }

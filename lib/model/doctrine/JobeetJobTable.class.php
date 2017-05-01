@@ -119,7 +119,6 @@ class JobeetJobTable extends Doctrine_Table
         {
             return Zend_Search_Lucene::open($index);
         }
-        die("lkjasdhf");
         return Zend_Search_Lucene::create($index);
     }
     

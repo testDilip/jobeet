@@ -1,0 +1,10 @@
+001493361619001493275219a:2:{s:7:"content";s:407:"<form action="/frontend_cache.php/change_language">
+  <tr>
+  <th><label for="language">Language</label></th>
+  <td><select name="language" id="language">
+<option value="en" selected="selected">English</option>
+<option value="fr">French</option>
+</select><input type="hidden" name="_csrf_token" value="d8da49c50a5dbf9df9c5397c04095c70" id="csrf_token" /></td>
+</tr>
+<input type="submit" value="ok" />
+</form>";s:8:"response";C:13:"sfWebResponse":433:{a:11:{i:0;s:0:"";i:1;i:200;i:2;s:2:"OK";i:3;a:5:{s:13:"http_protocol";s:8:"HTTP/1.1";s:7:"logging";s:1:"1";s:7:"charset";s:5:"utf-8";s:17:"send_http_headers";b:1;s:12:"content_type";s:24:"text/html; charset=utf-8";}i:4;b:0;i:5;a:1:{s:12:"Content-Type";s:24:"text/html; charset=utf-8";}i:6;a:0:{}i:7;a:0:{}i:8;a:3:{s:5:"first";a:0:{}s:0:"";a:0:{}s:4:"last";a:0:{}}i:9;a:3:{s:5:"first";a:0:{}s:0:"";a:0:{}s:4:"last";a:0:{}}i:10;a:0:{}}}}

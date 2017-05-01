@@ -1,0 +1,79 @@
+001493293367001493292767a:3:{s:7:"content";s:3672:"<div id="jobs">
+		    <div class="category_n-a">
+	    	<div class="category">
+	    		<div class="feed"><a href="/frontend_cache.php/en/category/programming.atom">Feed</a></div>
+	    		<h1><a href="/frontend_cache.php/en/category/programming">Programming</a></h1>
+	    	</div>
+	    	<table class="jobs">
+			<tr class="odd">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/sensio-labs/paris-france/35/web-developer">Web Developer</a></td>
+			<td class="company">Sensio Labs</td>
+		</tr>
+				<tr class="even">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/company-125/paris-france/63/web-developer">Web Developer</a></td>
+			<td class="company">Company 125</td>
+		</tr>
+				<tr class="odd">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/company-126/paris-france/64/web-developer">Web Developer</a></td>
+			<td class="company">Company 126</td>
+		</tr>
+				<tr class="even">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/company-127/paris-france/65/web-developer">Web Developer</a></td>
+			<td class="company">Company 127</td>
+		</tr>
+				<tr class="odd">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/company-128/paris-france/66/web-developer">Web Developer</a></td>
+			<td class="company">Company 128</td>
+		</tr>
+				<tr class="even">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/company-129/paris-france/67/web-developer">Web Developer</a></td>
+			<td class="company">Company 129</td>
+		</tr>
+				<tr class="odd">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/company-130/paris-france/68/web-developer">Web Developer</a></td>
+			<td class="company">Company 130</td>
+		</tr>
+				<tr class="even">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/company-117/paris-france/55/web-developer">Web Developer</a></td>
+			<td class="company">Company 117</td>
+		</tr>
+				<tr class="odd">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/company-118/paris-france/56/web-developer">Web Developer</a></td>
+			<td class="company">Company 118</td>
+		</tr>
+				<tr class="even">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/company-119/paris-france/57/web-developer">Web Developer</a></td>
+			<td class="company">Company 119</td>
+		</tr>
+		</table>                            <div class="more_jobs">
+                	and <a href="/frontend_cache.php/en/category/programming">22</a> more...            	</div>
+                	    </div>
+	    	    <div class="category_n-a">
+	    	<div class="category">
+	    		<div class="feed"><a href="/frontend_cache.php/en/category/design.atom">Feed</a></div>
+	    		<h1><a href="/frontend_cache.php/en/category/design">Design</a></h1>
+	    	</div>
+	    	<table class="jobs">
+			<tr class="odd">
+			<td class="location">Paris, France</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/extreme-sensio/paris-france/36/web-designer">Web Designer</a></td>
+			<td class="company">Extreme Sensio</td>
+		</tr>
+				<tr class="even">
+			<td class="location">New York, USA</td>
+			<td class="position"><a href="/frontend_cache.php/en/job/testing-form/new-york-usa/70/test">Test</a></td>
+			<td class="company">Testing form</td>
+		</tr>
+		</table>            	    </div>
+	    </div>
+";s:17:"decoratorTemplate";s:64:"/home/dilip/sfprojects/jobeet/apps/frontend/templates/layout.php";s:8:"response";C:13:"sfWebResponse":583:{a:11:{i:0;s:0:"";i:1;i:200;i:2;s:2:"OK";i:3;a:5:{s:13:"http_protocol";s:8:"HTTP/1.1";s:7:"logging";s:1:"1";s:7:"charset";s:5:"utf-8";s:17:"send_http_headers";b:1;s:12:"content_type";s:24:"text/html; charset=utf-8";}i:4;b:0;i:5;a:1:{s:12:"Content-Type";s:24:"text/html; charset=utf-8";}i:6;a:0:{}i:7;a:1:{s:12:"Content-Type";s:24:"text/html; charset=utf-8";}i:8;a:3:{s:5:"first";a:0:{}s:0:"";a:2:{s:8:"main.css";a:0:{}s:8:"jobs.css";a:0:{}}s:4:"last";a:0:{}}i:9;a:3:{s:5:"first";a:0:{}s:0:"";a:2:{s:20:"jquery-1.10.2.min.js";a:0:{}s:9:"search.js";a:0:{}}s:4:"last";a:0:{}}i:10;a:0:{}}}}

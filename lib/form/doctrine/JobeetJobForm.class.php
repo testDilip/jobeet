@@ -15,6 +15,8 @@ class JobeetJobForm extends BaseJobeetJobForm
    */
   public function configure()
   {
+      $this->disableLocalCSRFProtection();
+      
       $this->widgetSchema->setNameFormat('job[%s]');
       
       // removing fields from a form is as simple as insetting them by using unset method
